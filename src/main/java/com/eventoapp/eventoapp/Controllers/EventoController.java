@@ -54,7 +54,9 @@ public class EventoController {
         return "redirect:/" + codigoLong;
     }
 
+    
     @RequestMapping("/eventos")
+    @GetMapping
     public ModelAndView listaEventos(){
         ModelAndView mv = new ModelAndView("index");
         Iterable<Evento> eventos = er.findAll();
