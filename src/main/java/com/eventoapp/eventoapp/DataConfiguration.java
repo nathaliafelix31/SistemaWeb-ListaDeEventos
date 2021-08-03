@@ -23,7 +23,7 @@ public class DataConfiguration{
         String dbUrl = "jdbc:postgresql://" + dbUri.getHost() + ':' + dbUri.getPort() + dbUri.getPath();
 
         BasicDataSource basicDataSource = new BasicDataSource();
-        basicDataSource.setUrl(postgres://ikzspbdcwuyfum:c96b6cc3b645886176056ba7680437add46d13060b509f00dc11c6863be42e1e@ec2-3-233-43-103.compute-1.amazonaws.com:5432/dfmf658annb9ga);
+        basicDataSource.setUrl("postgres://ikzspbdcwuyfum:c96b6cc3b645886176056ba7680437add46d13060b509f00dc11c6863be42e1e@ec2-3-233-43-103.compute-1.amazonaws.com:5432/dfmf658annb9ga");
         basicDataSource.setUsername(ikzspbdcwuyfum);
         basicDataSource.setPassword(c96b6cc3b645886176056ba7680437add46d13060b509f00dc11c6863be42e1e);
 
