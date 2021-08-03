@@ -56,7 +56,7 @@ public class EventoController {
 
     
     @RequestMapping("/eventos")
-    @GetMapping
+   
     public ModelAndView listaEventos(){
         ModelAndView mv = new ModelAndView("index");
         Iterable<Evento> eventos = er.findAll();
